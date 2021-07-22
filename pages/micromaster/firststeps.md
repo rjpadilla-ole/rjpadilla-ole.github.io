@@ -77,9 +77,9 @@ Check your progress [here](trackprogress.md)
 
 1. This step includes the [Earthowned Manual](../manual/earthowned.md), which explains different features and usage of Planet system.
 
-2. You should search for Courses and Resources under Collection **Planet Learning** and take those Courses and Resources
+2. You should search for Courses and Library under Planetfarms  and take those Courses and Library.
 
-3. Create at least **4 issues** and **pull request** to improve Planet manual.
+3. Create at least **4 issues** and **pull request** to improve Planetfarms manual.
 
 > Once you complete Step 7 you will have:
 
@@ -89,5 +89,5 @@ Check your progress [here](trackprogress.md)
 
 ## Step 9 - Join the team
 
-Next thing is to post a screenshot of your completed progress to the Slack chat. Click [here](trackprogress.md) to find your completed progress.
-Creat a Pull Request to add yourself [team.md](team.md). Then message us ("@lmmrssa" and "@dogi") at [slack](http://join.slack.ole.org) and ask about setting up a meeting so you can become a part of the team as soon as possible.
+Next thing is to post a screenshot of your completed progress to the  chat. Click [here](trackprogress.md) to find your completed progress.
+Creat a Pull Request to add yourself [team.md](team.md). Then message us ("@lmmrssa" and "@dogi") at chat and ask about setting up a meeting so you can become a part of the team as soon as possible.
