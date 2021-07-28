@@ -14,6 +14,17 @@ Social coding is a huge part of any open source and collaborative project, and t
 Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Markdown and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this program and a future software development career.
 
 
+# Pre-Requisites
+
+## Required Prerequisites
+The following are the required hardware components that will be required to be part of the team. You will need some of the basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing. 
+
+### Hardware requirements:
+
+1. Laptop/Desktop with minimum 8GB of RAM
+ - You will need a Wi-Fi adapter if you are using a desktop without Wi-Fi capabilities.
+ 2. Mobile device (phone or tablet)
+ - Memory (RAM): Minimum 2GB
 ## Step 0 - Introductory Steps
 
 1. Complete the [Application form](https://docs.google.com/forms/d/1qaN-jTahFZxKpeImS8cDrHyO3hrBsN2xSI5risIxUJo). If you have already done this after being invited to join the team then good job, you're all set!
@@ -39,7 +50,7 @@ One of the most simple but most powerful text editors out there is Vim. If you w
 
 ## Step 2 - Markdown
 
-Follow the instructions on [Markdown](markdown.md)
+Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
 Make sure that you've linked to your github.io and pull request in the chat.
 
