@@ -23,8 +23,9 @@ The following are the required hardware components that will be required to be p
 
 1. Laptop/Desktop with minimum 8GB of RAM
  - You will need a Wi-Fi adapter if you are using a desktop without Wi-Fi capabilities.
- 2. Mobile device (phone or tablet)
+2. Mobile device (phone or tablet)
  - Memory (RAM): Minimum 2GB
+
 ## Step 0 - Introductory Steps
 
 1. Complete the [Application form](https://docs.google.com/forms/d/1qaN-jTahFZxKpeImS8cDrHyO3hrBsN2xSI5risIxUJo). If you have already done this after being invited to join the team then good job, you're all set!
