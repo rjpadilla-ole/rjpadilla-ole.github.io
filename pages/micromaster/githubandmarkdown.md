@@ -1,11 +1,14 @@
-# Markdown
+# GitHub and Markdown
 
 ## Objectives
 
+* Learn about GitHub and Markdown
 * Create your own Markdown profile page
-* Understand the GitHub workflow (including commits, and pull requests)
+* Understand the GitHub workflow (including forks, repositories, commits, and pull requests)
 
 ## Preparation
+
+[GitHub](https://help.github.com/categories/writing-on-github/) – a web-based hosting service for version control using git, source code management system for earthowned.
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) – a lightweight markup language with plain text formatting syntax.
 
@@ -30,32 +33,43 @@ The following resources can be used (and bookmarked) to familiarize yourself wit
 
 Below is a summary of the steps that we will walk you through:
 
+* [Login to GitHub with your username and password](#Login_to_GitHub_with_your_username_and_password)
 * [Find and fork the correct repository](#Find_and_fork_the_correct_repository)
 * [Go to Settings and rename your repository](#Go_to_Settings_and_rename_your_repository)
-* [Check if your github.io works](#Check_if_you_github.io_works)
+* [Check to see if your github.io works](#Check_to_see_if_your_github.io_works)
 * [Create a new file as your personal MDwiki page and commit your changes](#Create_a_new_file_as_your_personal_MDwiki_page_and_commit_your_changes)
 * [Open a pull request](#Open_a_pull_request)
+
+### Login to GitHub with your username and password
+
+Since you have already created an account on GitHub, we will assume that you understand the basic layout and functionality. If you don't, please explore and do some basic googling.
+
+There is a lot to learn about GitHub, but to acclimatize you to it, we will walk you through a basic example of how to create your own &lt;username&gt;.github.io and allow you to edit and commit your changes.
+
+**NOTE**: Existing GitHub users, please make sure to set your email address per local repository or make sure global settings are accurate. Follow [this](https://help.github.com/articles/setting-your-commit-email-address-in-git/) for more information. To check for your configuration settings, use the command `git config --list` and Git will list all the settings found at this point, including your current email address and username.
 
 ### Find and fork the correct repository
 
 Forking is essentially creating a copy of a repository on your own GitHub account, to avoid editing and, possibly, messing up with the main repository.
 
-Now, go to [PlanetLearning's github.io repository](https://github.com/planetlearning/planetlearning.github.io) and click on the "Fork" button as shown in the screenshot below to fork the repository to your own GitHub account.
+Now, go to [earthowned github.io repository](https://github.com/earthowned/earthowned.github.io) and click on the "Fork" button to fork the repository to your own GitHub account.
 
-![Forking on GitHub](images/fork.png)
+![](images/fork.png)
 
-**NOTE**: It is very important to **distinguish between your personal GitHub account and PlanetLearning's account**.
-As we want to keep a 'clean' version of our code, you should first fork the repository. You should commit any changes you make to a branch on this version of the repository. These changes should be sent back to PlanetLearning's repository through pull requests. PlanetLearning's code will be updated when the pull requests are approved.
+**NOTE**: It is very important to **distinguish between your personal GitHub account and earthowned's account**.
+As we want to keep a 'clean' version of our code, you should first fork the repository. You should commit any changes you make to a branch on this version of the repository. These changes should be sent back to earthowned repository through pull requests. earthowned code will be updated when the pull requests are approved.
 
 ### Go to Settings and rename your repository
 
-After you fork the repository, you will be on your repository: &lt;YourUserName&gt;/planetlearning.github.io. Next, you should go to **Settings** at the top middle of the page and rename your repository to &lt;YourUserName&gt;.github.io. See example below.
+After you fork the repository, you will be on your repository: &lt;YourUserName&gt;/earthowned.github.io. Next, you should go to **Settings** at the top middle of the page and rename your repository to &lt;YourUserName&gt;.github.io. See example below.
 
-![Renaming Repository](images/rename-repository.png)
+![](images/fork1.png)
+
+**Note:** In case you have the **`https://YourUserName.github.io`** in use, please refer to the [FAQ](faq.md).
 
 ### Check to see if your github.io works
 
-After renaming your forked repository, go to  https://YourUserName.github.io and make sure it works.
+After renaming your forked repository, go to  `https://YourUserName.github.io` and make sure it works.
 
 Don't worry if you see a **404** page not found error. When you access the link, it will take a while for the page to load and run. Make sure in **Settings > GitHub Pages**, the **source** is set to **_master branch_**.
 
@@ -71,7 +85,7 @@ First, before creating your file, we need to create a new branch
 
 Next, we are going to create your page
 
-1. Go to the `pages/micromaster/profiles` folder
+1. Go to the `pages/vi/profiles` folder
 1. Make sure you are still on the new branch you just created, look for "Branch: **new-branch-name**" on the branch selector menu
 1. Click `Create new file` button
 1. Name the file exactly the same as your GitHub username plus the `.md` file extension `<username>.md`
@@ -83,14 +97,14 @@ Then, in the new Markdown file, include the following information:
 * your name, location/time zone, and OS (including version)
 * a short description of yourself (so your fellow virtual interns know who you are)
 
-You may use the "Preview" tab to have a primitive look of what your Markdown will look like. Please use at least 5 different types of Markdown elements so you can get an idea of how it works. Avoid using HTML as the purpose of Markdown is to make pages easy to write and read. Try to be as creative as possible.
+You may use the "Preview" tab to have a primitive look of what your Markdown will look like. Please use at least 5 different types of Markdown elements so you can get an idea of how it works. Avoid using HTML as the purpose of Markdown is to make pages easy to write and read. Try to be as creative as possible. Some good examples of profiles are: [Profile 1](profiles/Loshma93.md) (links), [Profile 2](profiles/ketruong.md) (picture), [Profile 3](profiles/paulbert.md) (lists), [Profile 4](profiles/xdmtk.md) (nerdy)
 
 When you are finished, press 'commit changes' below.
 
 
 If you need to edit your file again, click the pencil icon to edit.
 
-Now, check what this looks like on your own page `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/micromaster/profiles/YourUserName.md`. The [raw.githack](https://raw.githack.com/) link allows reviewers to preview your changes. Don't forget to add `#!` after the forward slash proceeding your branch name in order to show the markdown in presentation mode. Please double check that everything looks good and is working as you hoped before moving on to next section.
+Now, check what this looks like on your own page `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`. The [raw.githack](https://raw.githack.com/) link allows reviewers to preview your changes. Don't forget to add `#!` after the forward slash proceeding your branch name in order to show the markdown in presentation mode. Please double check that everything looks good and is working as you hoped before moving on to next section.
 
 **NOTE**:
 • If you don't see any changes in your page after editing your file then you need to clear your browser's cache or open your page in your browser's **"incognito"** or **"privacy"** mode. You can also press Ctrl+Shift+R or Ctrl+F5 to reload the page with cache cleared.
@@ -108,7 +122,7 @@ Once you have your profile ready, it's time to create a pull request. Click on o
 * include the raw.githack link to your Markdown profile page in the pull request description
 * scroll down the page and verify you used at least 5 **different** Markdown elements in your profile
 
-Finally, click "Create pull request" button and post the link to your github.io and profile pull request in the [slack chat](http://slack.ole.org):
+Finally, click "Create pull request" button and post the link to your github.io and profile pull request in the [gitter chat](https://gitter.im/earthowned/Lobby):
 
 > @/all I'm on step 3 - GitHub and Markdown, please look at `https://YourUserName.github.io` and review my profile pull request `LinkToYourPullRequest`
 
@@ -117,6 +131,10 @@ Remember, it can take a while for `https://YourUserName.github.io` to be up and 
 
 Someone from our team will review the changes and notify you on gitter. Often there will be some feedback from the reviewer for you to address. If that is the case, go to your pull request first then select "files changed" --> next select "..." on the top right --> select "Edit File" --> make the required changes --> scroll down and select "commit" on the pull request when done. Any changes you make to your branch will be automatically updated in the pull request. Once you get 2 approving reviews, we will merge your Markdown profile with the main repository.
 
-After the pull request is merged, you'll be able to see your personal page at `planetlearning.github.io/#!pages/micromaster/profiles/<YourUserName>.md`. Let us know in the [slack chat](http://slack.ole.org)  after you complete this step.
+After the pull request is merged, you'll be able to see your personal page at `earthowned.github.io/#!pages/vi/profiles/<YourUserName>.md`. Let us know in the [gitter.im chat](https://gitter.im/earthowned/Lobby) after you complete this step.
 
-**NOTE**: Try to add and experiment with as many markdown elements as you can and make your page attractive. Be creative.
+**NOTE**: Try to add and experiment with as many markdown elements as you can and make your page attractive. A list of sample profile pages can be found [**here**](https://github.com/earthowned/earthowned.github.io/tree/master/pages/vi/profiles). Be creative.
+
+---
+#### Return to [First Steps](firststeps.md#Step_3_-_Markdown_and_Fork_Tutorial)
+
