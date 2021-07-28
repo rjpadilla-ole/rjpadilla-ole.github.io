@@ -23,6 +23,7 @@ The following are the required hardware components that will be required to be p
 
 1. Laptop/Desktop with minimum 8GB of RAM
  - You will need a Wi-Fi adapter if you are using a desktop without Wi-Fi capabilities.
+
 2. Mobile device (phone or tablet)
  - Memory (RAM): Minimum 2GB
 
