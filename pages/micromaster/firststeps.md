@@ -14,6 +14,19 @@ Social coding is a huge part of any open source and collaborative project, and t
 Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Markdown and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this program and a future software development career.
 
 
+# Pre-Requisites
+
+## Required Prerequisites
+The following are the required hardware components that will be required to be part of the team. You will need some of the basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing. 
+
+### Hardware requirements:
+
+1. Laptop/Desktop with minimum 8GB of RAM
+ - You will need a Wi-Fi adapter if you are using a desktop without Wi-Fi capabilities.
+
+2. Mobile device (phone or tablet)
+ - Memory (RAM): Minimum 2GB
+
 ## Step 0 - Introductory Steps
 
 1. Complete the [Application form](https://docs.google.com/forms/d/1qaN-jTahFZxKpeImS8cDrHyO3hrBsN2xSI5risIxUJo). If you have already done this after being invited to join the team then good job, you're all set!
@@ -37,9 +50,9 @@ One of the most simple but most powerful text editors out there is Vim. If you w
 
 2. Using [GitHub](github.md)
 
-## Step 2 - Markdown
+## Step 2 - GitHub and Markdown
 
-Follow the instructions on [Markdown](markdown.md)
+Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
 Make sure that you've linked to your github.io and pull request in the chat.
 
@@ -51,7 +64,19 @@ Make sure that you've linked to your github.io and pull request in the chat.
 
 Check your progress [here](trackprogress.md)
 
-## Step 3 - Planetfarms
+## Step 3 - Software Tutorial
+
+### NodeJS
+
+Node.js is an open-source, cross-platform runtime that allows Javascript to be executed outside of a web browser for backend development. Node.js comes with built-in modules that allows developers to build servers with rich features using asynchronous APIs.
+To install Node.js, follow the directions in the [Node.js Tutorial](nodetutorial.md)
+
+### Docker
+
+Docker is a computer program that performs operating-system-level virtualization also known as containerization. In this step, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
+Follow the directions in the [Docker Tutorial](dockertutorial.md)
+
+## Step 4 - Planetfarms
 
 There are 3 sub-steps in this step:
 
@@ -59,11 +84,11 @@ There are 3 sub-steps in this step:
   **PlanetFarms** is a system built in PERN Stack. This stack consists of PostgreSQL, Express, React and Node.js .
 
 
-## Step 4 - Keeping Fork Updated
+## Step 5 - Keeping Fork Updated
 
 Follow the directions at [Git Repositories](gitrepositories.md) to keep your username.github.io and your local repository up to date.
 
-## Step 5 - Create Issues
+## Step 6 - Create Issues
 
 Improve the PlanetFarms documentation and create at least **2 issues** and **pull request**.
 
@@ -73,7 +98,7 @@ Improve the PlanetFarms documentation and create at least **2 issues** and **pul
 
 Check your progress [here](trackprogress.md)
 
-## Step 6 - Using Earthowned
+## Step 7 - Using Earthowned
 
 1. This step includes the [Earthowned Manual](../manual/earthowned.md), which explains different features and usage of Planet system.
 
