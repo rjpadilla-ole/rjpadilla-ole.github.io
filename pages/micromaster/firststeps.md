@@ -64,7 +64,19 @@ Make sure that you've linked to your github.io and pull request in the chat.
 
 Check your progress [here](trackprogress.md)
 
-## Step 3 - Planetfarms
+## Step 3 - Software Tutorial
+
+### NodeJS
+
+Node.js is an open-source, cross-platform runtime that allows Javascript to be executed outside of a web browser for backend development. Node.js comes with built-in modules that allows developers to build servers with rich features using asynchronous APIs.
+To install Node.js, follow the directions in the [Node.js Tutorial](nodetutorial.md)
+
+### Docker
+
+Docker is a computer program that performs operating-system-level virtualization also known as containerization. In this step, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
+Follow the directions in the [Docker Tutorial](dockertutorial.md)
+
+## Step 4 - Planetfarms
 
 There are 3 sub-steps in this step:
 
@@ -72,11 +84,11 @@ There are 3 sub-steps in this step:
   **PlanetFarms** is a system built in PERN Stack. This stack consists of PostgreSQL, Express, React and Node.js .
 
 
-## Step 4 - Keeping Fork Updated
+## Step 5 - Keeping Fork Updated
 
 Follow the directions at [Git Repositories](gitrepositories.md) to keep your username.github.io and your local repository up to date.
 
-## Step 5 - Create Issues
+## Step 6 - Create Issues
 
 Improve the PlanetFarms documentation and create at least **2 issues** and **pull request**.
 
@@ -86,7 +98,7 @@ Improve the PlanetFarms documentation and create at least **2 issues** and **pul
 
 Check your progress [here](trackprogress.md)
 
-## Step 6 - Using Earthowned
+## Step 7 - Using Earthowned
 
 1. This step includes the [Earthowned Manual](../manual/earthowned.md), which explains different features and usage of Planet system.
 
