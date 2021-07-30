@@ -50,7 +50,7 @@ One of the most simple but most powerful text editors out there is Vim. If you w
 
 2. Using [GitHub](github.md)
 
-## Step 2 - Markdown
+## Step 2 - GitHub and Markdown
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
