@@ -66,6 +66,8 @@ Check your progress [here](trackprogress.md)
 
 ## Step 3 - Software Tutorial
 
+### Package Managers
+Package managers are systems that allows you to download other users software, known as packages, to help with you tasks. There are many variaties of package managers, but the ones we will be using the most is your operating system's package manager and node.js's npm. For more information check out the [Package Manager Tutorial](package.md)
 ### NodeJS
 
 Node.js is an open-source, cross-platform runtime that allows Javascript to be executed outside of a web browser for backend development. Node.js comes with built-in modules that allows developers to build servers with rich features using asynchronous APIs.
