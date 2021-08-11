@@ -25,4 +25,4 @@ Here is a list of some well-know package managers you may encounter in your care
 In this internship you would be mostly using npm and your operating system of choice package manager.
 
 ---
-#### Return to [First Steps](firststeps.md#Step_3_-_Markdown_and_Fork_Tutorial)
+#### Return to [First Steps](firststeps.md#Step_3_-_Software_Tutorial)
